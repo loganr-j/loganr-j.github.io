@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    
+}
+
+.navbar {
+    background-color: green;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+   
+    
+}
+
+.navbar .logo {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    
+}
+
+.logo .logo-item {
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+
+.nav-list {
+    list-style-type: none;
+    
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+   
+
+}
+
+.nav-list .Login-list {
+    display: inline-block;
+    padding: 30px 10px;
+    font-size: 25px;
+    justify-content: right;
+}
+
+.navbar a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.navbar b {
+    color: yellow;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover {
+    color: yellowgreen;
+}
+
+.hero {
+    background: url(lemon_background.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 450px;
+    max-height: 650px;
+    justify-content: center;
+}
+
+.hero input[type=text] {
+    text-align: center;
+    float: none;
+    padding: 6px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+    
+    font-size: 17px;
+
+}
+
+
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: #0bdd27;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #e5e908;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #content {
+    padding: 50px;  
+    /* border: 2px solid purple ; */
+    
+  }
+
+  #title {
+    color: white;
+    padding-left: 7% ;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    font-size: 3.5vw;
+    /* border: 2px solid purple ; */
+    
+  }
+
+  #selection {
+    height: fit-content;
+    background-color: darkgreen;
+    padding: 2%;
+  }
+
+  .lemons {
+    display: flex;
+
+  }
+
+  .column img {
+    display: block;
+    margin: 0 auto;
+    flex: 33.33%;
+    
+    height: 30%;
+  }
+
+  .column {
+    text-align: center;
+    width: 90%;
+    color: #e5e908;
+    font-size: 2vw;
+    
+  }
+
+  
